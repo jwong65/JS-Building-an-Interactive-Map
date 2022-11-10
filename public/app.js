@@ -18,6 +18,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // create and main add geolocation marker
 
+var marker = L.marker([]).addTo(myMap)
 
 // draw the 2nd arrondissement
 
