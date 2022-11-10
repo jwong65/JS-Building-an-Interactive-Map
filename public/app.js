@@ -18,7 +18,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // create and main add geolocation marker
 
-var marker = L.marker([]).addTo(myMap)
+var marker = L.marker([48.87007, 2.346453]).addTo(myMap).bindPopup('<p1>The Hoxton, Paris<p1>').openPopup()
 
 // draw the 2nd arrondissement
 
