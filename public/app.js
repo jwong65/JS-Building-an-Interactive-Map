@@ -22,6 +22,10 @@ var marker = L.marker([48.87007, 2.346453]).addTo(myMap).bindPopup('<p1>The Hoxt
 
 // draw the 2nd arrondissement
 
+var polygon = L.polygon([
+
+]).addTo(myMap)
+
 
 // create red pin marker
 
