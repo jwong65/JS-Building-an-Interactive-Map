@@ -36,7 +36,15 @@ var polygon = L.polygon([
 
 // create red pin marker
 
-const redpin= L.marker([], {icon: redPin}).bindPopup('Reaumur- Sebastopol')
+var redPin = L.icon({
+    iconUrl: './red-pin.png',
+
+    iconSize: [38,38],
+    iconAnchor: [19,38]
+
+})
+
+const redpin= L.marker([], {icon: redPin}).bindPopup('Reaumur-Sebastopol')
 
 // Metro station markers:
 const rS = L.marker([48.866200610611926, 2.352236247419453]).bindPopup('Reaumur-Sebastopol')
