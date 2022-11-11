@@ -36,8 +36,10 @@ var polygon = L.polygon([
 
 // create red pin marker
 
+const redpin= L.marker([], {icon: redPin}).bindPopup('Reaumur- Sebastopol')
+
 // Metro station markers:
-const rS = L.marker([48.866200610611926, 2.352236247419453]).bindPopup('RÃ©️aumur-SÃ©️bastopol')
+const rS = L.marker([48.866200610611926, 2.352236247419453]).bindPopup('Reaumur-Sebastopol')
 const sSD = L.marker([48.869531786321566, 2.3528590208055196]).bindPopup('Strasbourg-Saint-Denis')
 const sentier = L.marker([48.8673721067762, 2.347107922912739]).bindPopup('Sentier')
 const bourse = L.marker([48.86868503971672, 2.3412285142058167]).bindPopup('Bourse')
